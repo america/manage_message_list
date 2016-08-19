@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='dbutil',
+    name='manage_message_list',
     version='0.0.1',
     url='https://github.com/america/Python',
     author='Takashi Haga',
@@ -19,4 +19,12 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=required,
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Programming Language :: Python :: 3.5',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Topic :: Database',
+    ],
+
 )
