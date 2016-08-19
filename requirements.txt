@@ -26,6 +26,5 @@ six==1.10.0
 tornado==4.3
 tox==2.3.1
 traitlets==4.2.2
-tweepy==3.5.0
 virtualenv==13.1.2
 wcwidth==0.1.7
