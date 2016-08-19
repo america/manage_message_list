@@ -3,7 +3,7 @@
 
 from nose.tools import eq_, raises
 
-from dbutil import dbUtil
+from dbutil.dbUtil import dbUtil
 
 from manage_message_list.manage_message_list import manage_message_list
 from collections import namedtuple
