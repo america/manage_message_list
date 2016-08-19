@@ -1,0 +1,12 @@
+*.log
+__pycache__
+*.sh
+backup
+.git
+.coverage
+*.pyc
+/build
+/dist
+/.tox
+/dbutil.egg-info
+nosetests.xml
